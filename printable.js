@@ -32,7 +32,7 @@ function createPrintable() {
                 <p>Prodotto: Clear-Coat Original</p>
                 <p class="fw-bolder">Codice di Attivazione: ASD3-1234 </p>
             </div>
-            <div class="my-auto border border-dark rounded p-1" id="qrcode-0"></div>
+            <div class="my-auto" id="qrcode-0"></div>
         </div>
         <div class="callout callout-warning d-flex justify-content-between">
             <div>
@@ -40,7 +40,7 @@ function createPrintable() {
                 <p>Prodotto: Clear-Coat Original</p>
                 <p class="fw-bolder">Codice di Attivazione: ASD3-1234 </p>
             </div>
-            <div class="my-auto border border-dark rounded p-1" id="qrcode-1"></div>
+            <div class="my-auto" id="qrcode-1"></div>
         </div>
         <div class="d-flex flex-row flex-wrap">
             <div>
