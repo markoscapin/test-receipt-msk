@@ -18,3 +18,35 @@
 .callout-danger {
   border-left-color: #dc3545;
 }
+
+.yesPrint h3 {
+  font-size: 10pt !important;
+}
+
+.yesPrint p,
+.yesPrint em,
+.yesPrint b {
+  font-size: 10pt !important;
+}
+
+.yesPrint .callout {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+.yesPrint .callout p {
+  margin: 0.25rem 0rem;
+}
+
+.yesPrint .desc-p {
+  font-size: 8pt !important;
+}
+
+@media print {
+  .noPrint {
+    display: none !important;
+  }
+  .yesPrint {
+    display: block !important;
+  }
+}
